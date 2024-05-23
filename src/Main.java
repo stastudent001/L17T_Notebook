@@ -12,7 +12,8 @@ public class Main {
             System.out.println(notebook.toString());
             ois.close();
 
-            //notebook.addNote(new Note("Tasd", LocalDateTime.now(), "wet@jut.me", "to go"));
+            //notebook.addNote(new Note("Tasd", LocalDateTime.of(2024,05, 23, 10, 22),
+                    "wet@jut.me", "to go"));
             notebook.findByDate(LocalDate.now());
 
             ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("notes.kirikpidr"));
