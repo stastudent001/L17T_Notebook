@@ -38,6 +38,6 @@ public class Note implements Serializable {
                 ", date=" + date +
                 ", email='" + email + '\'' +
                 ", message='" + message + '\'' +
-                '}';
+                "}\n";
     }
 }
