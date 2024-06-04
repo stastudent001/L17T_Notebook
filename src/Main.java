@@ -13,7 +13,7 @@ public class Main {
             ois.close();
 
             //notebook.addNote(new Note("Tasd", LocalDateTime.of(2024,05, 23, 10, 22),
-                    "wet@jut.me", "to go"));
+            //        "wet@jut.me", "to go"));
             notebook.findByDate(LocalDate.now());
 
             ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("notes.kirikpidr"));
